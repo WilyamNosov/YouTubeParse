@@ -17,3 +17,23 @@ D:\Programs\VS Project\YouTube\YouTubeParse\YouTubeParse\obj\Debug\YouTubeParse.
 D:\Programs\VS Project\YouTube\YouTubeParse\YouTubeParse\obj\Debug\YouTubeParse.csproj.CopyComplete
 D:\Programs\VS Project\YouTube\YouTubeParse\YouTubeParse\obj\Debug\YouTubeParse.exe
 D:\Programs\VS Project\YouTube\YouTubeParse\YouTubeParse\obj\Debug\YouTubeParse.pdb
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\YouTubeParse.exe.config
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\YouTubeParse.exe
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\YouTubeParse.pdb
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\EPPlus.dll
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\Ionic.Zip.dll
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\ThoughtWorks.Selenium.Core.dll
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\WebDriver.dll
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\WebDriver.Support.dll
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\EPPlus.xml
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\ThoughtWorks.Selenium.Core.xml
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\WebDriver.xml
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\bin\Debug\WebDriver.Support.xml
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\obj\Debug\YouTubeParse.csprojAssemblyReference.cache
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\obj\Debug\YouTubeParse.csproj.CoreCompileInputs.cache
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\obj\Debug\YouTubeParse.csproj.CopyComplete
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\obj\Debug\YouTubeParse.exe
+D:\GitHub\YouTube\YouTubeParse\YouTubeParse\obj\Debug\YouTubeParse.pdb

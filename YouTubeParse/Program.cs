@@ -29,6 +29,8 @@ namespace YoutubeParse
         public List<string> ExcelUrls = new List<string>();
         public List<List<string>> resultList = new List<List<string>>();
 
+        public List<string> zeroUserUrlList = new List<string>();
+        public List<string> zeroUserNameList = new List<string>();
 
         public void scrollToBottom()
         {
@@ -90,19 +92,20 @@ namespace YoutubeParse
                 {
                     resultList.Add(new List<string>() { urlList.ElementAt(j), namesList.ElementAt(j) });
                 }
-                this.createExcel(ExcelNames.ElementAt(i), i);
+                this.createExcel(ExcelNames.ElementAt(i), i, url);
                 urlList.Clear();
                 namesList.Clear();
                 resultList.Clear();
             }
+            this.addZeroUsers();
             this.saveToExcel();
         }
 
-        public void createExcel(string sheetName, int index)
+        public void createExcel(string sheetName, int index, string url)
         {
             if (resultList.Count > 0)
             {
-                ExcelWorksheet workSheet = excel.Workbook.Worksheets.Add(sheetName + index);
+                ExcelWorksheet workSheet = excel.Workbook.Worksheets.Add(sheetName + " " + index);
                 workSheet.TabColor = System.Drawing.Color.Black;
                 for (int i = 0; i < urlList.Count; i++)
                 {
@@ -113,8 +116,26 @@ namespace YoutubeParse
                     }
                 }
             }
+            else
+            {
+                zeroUserUrlList.Add(url);
+                zeroUserNameList.Add(sheetName);
+            }
 
         }
+
+        public void addZeroUsers()
+        {
+            ExcelWorksheet workSheet = excel.Workbook.Worksheets.Add("ZeroUsers");
+            workSheet.TabColor = System.Drawing.Color.Black;
+            for (int i = 0; i < zeroUserNameList.Count; i++)
+            {
+                workSheet.Cells[i + 1, 1].Value = zeroUserUrlList.ElementAt(i);
+                workSheet.Cells[i + 1, 2].Value = zeroUserNameList.ElementAt(i);
+            }
+
+        }
+
         public void saveToExcel()
         {
             string s = DateTime.Now.ToString("dd_MMMM_yyyy HH_mm_ss");
